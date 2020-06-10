@@ -1,0 +1,20 @@
+<fi2case xmlns="http://www.fi2.se/schemas/1.31">
+    <fi2case_ids></fi2case_ids>
+    <fi2case_childobject fi2item="fi2order">
+        <fi2child_item>
+            <fi2order>
+                <fi2order_ids></fi2order_ids>
+                <!-- Fritext som beskriver felet -->
+                <fi2order_descr lang="sv" usage="Description">Här kommer en fritextbeskrivning av felet med alla detaljer. Kan vara vad som helst.</fi2order_descr>
+                <!-- Kopplingen till fi2equipment. Motsvarar en enhet (FAST2), detalj (Vitec) eller liknande i fastighetssystemet.
+                    Kopplingen till det obligatoriska fi2spatisystem görs baserat på placeringen av fi2equipment
+                     ID:t är löpnummer för utrustningen/detaljen i fastighetssystemet -->
+                <fi2order_parentobject fi2item="fi2equipment">
+                    <fi2parent_ids>
+                        <fi2_id>12345</fi2_id>
+                    </fi2parent_ids>
+                </fi2order_parentobject>
+            </fi2order>
+        </fi2child_item>
+    </fi2case_childobject>
+</fi2case>

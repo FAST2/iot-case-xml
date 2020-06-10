@@ -1,0 +1,17 @@
+<!-- id motsvarar löpnumer för förälder-ärendet -->
+<fi2case id="99999999" xmlns="http://www.fi2.se/schemas/1.31">
+    <fi2case_ids>
+        <!-- Verksamhets-ID för ärendet. Hos FAST2 ofta ett konfigurerbart begrepp baserat på datum, objektnummer o dyl -->
+        <fi2_id usage="CaseNumber">8888888888</fi2_id>
+    </fi2case_ids>
+    <fi2case_childobject fi2item="fi2order">
+            <fi2child_ids>
+                <!-- Löpnummer för den skapade ordern
+                     motsvarar
+                        fi2order id="777777777"
+                     om hela ordern hade hämtats via /api/fi2order/777777777
+                -->
+                <fi2_id>777777777</fi2_id>
+            </fi2child_ids>
+    </fi2case_childobject>
+</fi2case>
