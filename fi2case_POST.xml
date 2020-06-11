@@ -4,6 +4,20 @@
         <fi2child_item>
             <fi2order>
                 <fi2order_ids></fi2order_ids>
+                <!--
+                    Åtgärdsprioritet.
+                       1 = Hög
+                       2 = Normal
+                       3 = Låg
+                -->
+                <fi2order_class>
+                    <fi2class_code>1</fi2class_code>
+                    <fi2class_scheme>
+                        <fi2scheme_id>Class_Fi2OrderPriorityClass_01</fi2scheme_id>
+                        <fi2scheme_name>Class_Fi2OrderPriority</fi2scheme_name>
+                        <fi2scheme_url>http://www.fastapi.se/lists/classlist/Class_Fi2OrderPriorityClass_01.xml</fi2scheme_url>
+                    </fi2class_scheme>
+                </fi2order_class>
                 <!-- Fritext som beskriver felet -->
                 <fi2order_descr lang="sv" usage="Description">Här kommer en fritextbeskrivning av felet med alla detaljer. Kan vara vad som helst.</fi2order_descr>
                 <!-- Kopplingen till fi2equipment. Motsvarar en enhet (FAST2), detalj (Vitec) eller liknande i fastighetssystemet.
