@@ -5,7 +5,7 @@
             <fi2order>
                 <fi2order_ids></fi2order_ids>
                 <!--
-                    Åtgärdsprioritet.
+                    Åtgärdsprioritet med tre nivåer enligt klasslista Class_Fi2OrderPriorityClass_OpenArchetype.xml
                        1 = Hög
                        2 = Normal
                        3 = Låg
@@ -15,7 +15,7 @@
                     <fi2class_scheme>
                         <fi2scheme_id>Class_Fi2OrderPriorityClass_01</fi2scheme_id>
                         <fi2scheme_name>Class_Fi2OrderPriority</fi2scheme_name>
-                        <fi2scheme_url>http://www.fastapi.se/lists/classlist/Class_Fi2OrderPriorityClass_01.xml</fi2scheme_url>
+                        <fi2scheme_url>https://github.com/FAST2/iot-case-xml/blob/master/classlist/Class_Fi2OrderPriorityClass_OpenArchetype.xml</fi2scheme_url>
                     </fi2class_scheme>
                 </fi2order_class>
                 <!-- Fritext som beskriver felet -->
