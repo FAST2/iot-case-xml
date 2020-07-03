@@ -1,5 +1,7 @@
 <fi2case xmlns="http://www.fi2.se/schemas/1.31">
     <fi2case_ids></fi2case_ids>
+    <!-- Fritext som beskriver felet -->
+    <fi2case_descr usage="Description">Här kommer en fritextbeskrivning av felet med alla detaljer. Kan vara vad som helst.</fi2case_descr>
     <fi2case_childobject fi2item="fi2order">
         <fi2child_item>
             <fi2order>
@@ -18,8 +20,6 @@
                         <fi2scheme_url>https://github.com/FAST2/iot-case-xml/blob/master/classlist/Class_Fi2OrderPriorityClass_OpenArchetype.xml</fi2scheme_url>
                     </fi2class_scheme>
                 </fi2order_class>
-                <!-- Fritext som beskriver felet -->
-                <fi2order_descr lang="sv" usage="Description">Här kommer en fritextbeskrivning av felet med alla detaljer. Kan vara vad som helst.</fi2order_descr>
                 <!-- Kopplingen till fi2equipment. Motsvarar en enhet (FAST2), detalj (Vitec) eller liknande i fastighetssystemet.
                     Kopplingen till det obligatoriska fi2spatisystem görs baserat på placeringen av fi2equipment
                      ID:t är löpnummer för utrustningen/detaljen i fastighetssystemet -->
